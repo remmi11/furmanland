@@ -12,10 +12,12 @@ hr {
     border-top: 1px solid #777;
     border-color: #bb2828;
 }
+
 .title {
     color: #bb2828;
     font-size: 40px;
 }
+
 a {
     color: black;
 }
@@ -474,13 +476,12 @@ nav li:last-child:after {
     box-shadow: 0 10px 25px #aaaaaa;
 }
 
-
-.big{
+.big {
     box-shadow: 0 -20px 50px #d6d6d6 !important;
     z-index: 1111;
     margin-left: -40px;
     transition: all 0.7s;
-    }
+}
 
 .owl-stage-outer {
     height: 380px;
