@@ -114,7 +114,7 @@
     <div class="container banner">
             <div class="owl-carousel owl-theme">
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video1" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 1.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video2" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 2.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video3" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 3.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -150,7 +150,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video4" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 4.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video5" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 5.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video6" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 6.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -186,7 +186,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video7" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 7.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video8" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 8.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <video class="video-fluid z-depth-1" loop controls muted>
+                    <video id="video9" class="video-fluid z-depth-1" controls muted>
                         <source src="http://beyondmapping.com/furmanland/videos/WEBSITE 9.mp4" type="video/mp4" />
                     </video>
                     <div class="caption">
@@ -384,6 +384,34 @@
             //     $('.owl-item').eq(idx + 1).addClass('medium');
             //     $('.owl-item').eq(idx + 1).removeClass('caption');
             // });
+            document.getElementById('video1').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video2').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video3').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video4').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video5').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video6').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video7').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video8').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+            document.getElementById('video9').addEventListener('ended', function(e) {
+                owl.trigger('next.owl.carousel');
+            });
+
         });
     </script>
 
