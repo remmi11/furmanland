@@ -751,3 +751,6 @@ nav li:last-child:after {
 .owl-dot.active span {
     background-color: #000;
 }
+nav .navbar-nav > li.active-menu > a{
+    color: #bb2828 !important;
+}
